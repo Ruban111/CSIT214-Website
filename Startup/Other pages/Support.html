@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Support Page</title>
+  <style>
+    body {
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./signup.jpg);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+ content:'';
+ height: 3px;
+ width:  0;
+ background: #ec1628;
+ position: absolute;
+ left: 0;
+ bottom: -10px;
+ transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+  a {
+    text-decoration: none;
+  }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./signup.jpg);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    p {
+      font-size: 18px;
+      color: #777777;
+      margin-bottom: 20px;
+    }
+
+    .contact-link {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .contact-info span {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .contact-info .contact-label {
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .contact-info .contact-value {
+      color: #777777;
+    }
+  </style>
+</head>
+<body><div class="navbar">
+        <a href="#" ><img src="FLydreamair.png" class="logo"></a>
+        <ul>
+            <li><a href="./HomePage.html">Home</a></li>
+            <li><a href="./MeberShip.html">MemberShip</a></li>
+            <li><a href="./HomePage.html">Services</a></li>
+            <li><a href="./Support.html">Help</a></li>
+            <li><a href="./About.html">About</a></li>
+
+           
+        </ul>
+
+       </div><br><br><br><br><br><br><br>
+  <div class="container">
+    
+    <h1>Need Support?</h1>
+    <p>If you have any questions or need assistance, please don't hesitate to contact our support team.</p>
+    <div class="contact-info">
+      <span class="contact-label">Email:</span>
+      <a href="mailto:support@example.com" class="contact-link">support@example.com</a>
+      <span class="contact-label">Phone:</span>
+      <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+    </div>
+  </div>
+</body>
+</html>
